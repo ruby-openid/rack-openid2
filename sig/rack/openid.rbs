@@ -10,4 +10,10 @@ module Rack
     VERSION: String
   end
   VERSION: String
+  class OpenID
+    module Version
+      VERSION: String
+    end
+    VERSION: String
+  end
 end
