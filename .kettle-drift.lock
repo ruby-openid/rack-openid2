@@ -1,12 +1,20 @@
 {
+  "- gem: rubocop-packaging\ndirect: rack-openid2.gemspec": [
+    {
+      "file": ".structuredmerge/kettle-jem.yml",
+      "lines": [
+        123,
+        128
+      ]
+    }
+  ],
   "action: remove_modular_gem\nreason: \"rack-openid2.gemspec owns this style dependency.\"": [
     {
       "file": ".structuredmerge/kettle-jem.yml",
       "lines": [
         116,
         121,
-        126,
-        131
+        136
       ]
     }
   ],
@@ -17,7 +25,16 @@
         114,
         119,
         124,
-        129
+        134
+      ]
+    }
+  ],
+  "exec_cmd: \"kettle-test\"\nrubygems: latest": [
+    {
+      "file": ".github/workflows/current.yml",
+      "lines": [
+        43,
+        49
       ]
     }
   ],
@@ -27,8 +44,7 @@
       "lines": [
         115,
         120,
-        125,
-        130
+        135
       ]
     }
   ]
