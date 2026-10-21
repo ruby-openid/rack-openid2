@@ -8,6 +8,15 @@
       ]
     }
   ],
+  "- ruby: \"ruby\"\nappraisal: \"current\"": [
+    {
+      "file": ".github/workflows/current.yml",
+      "lines": [
+        41,
+        47
+      ]
+    }
+  ],
   "action: remove_modular_gem\nreason: \"rack-openid2.gemspec owns this style dependency.\"": [
     {
       "file": ".structuredmerge/kettle-jem.yml",
@@ -15,6 +24,15 @@
         116,
         121,
         136
+      ]
+    }
+  ],
+  "config: .licenserc.yaml\nmode: \"check\"": [
+    {
+      "file": ".github/workflows/license-eye.yml",
+      "lines": [
+        49,
+        62
       ]
     }
   ],
@@ -33,8 +51,8 @@
     {
       "file": ".github/workflows/current.yml",
       "lines": [
-        43,
-        49
+        44,
+        50
       ]
     }
   ],

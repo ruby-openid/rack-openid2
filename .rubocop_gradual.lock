@@ -1,46 +1,11 @@
 {
-  "Gemfile:3644212477": [
-    [53, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [57, 43, 4, "Lint/LtsRuby/UnavailableMethod: IO/SyntaxError#path is unavailable before Ruby 3.2.", 2088095368]
-  ],
-  "gemfiles/modular/changelog.gemfile:285381723": [
-    [27, 29, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [31, 45, 4, "Lint/LtsRuby/UnavailableMethod: IO/SyntaxError#path is unavailable before Ruby 3.2.", 2088095368]
-  ],
-  "gemfiles/modular/coverage_local.gemfile:367561544": [
-    [19, 25, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [23, 41, 4, "Lint/LtsRuby/UnavailableMethod: IO/SyntaxError#path is unavailable before Ruby 3.2.", 2088095368],
-    [56, 101, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [63, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
-  ],
-  "gemfiles/modular/documentation_local.gemfile:1886495639": [
-    [19, 25, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [23, 41, 4, "Lint/LtsRuby/UnavailableMethod: IO/SyntaxError#path is unavailable before Ruby 3.2.", 2088095368]
-  ],
-  "gemfiles/modular/style_local.gemfile:2242147503": [
-    [22, 25, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [26, 41, 4, "Lint/LtsRuby/UnavailableMethod: IO/SyntaxError#path is unavailable before Ruby 3.2.", 2088095368]
-  ],
-  "gemfiles/modular/templating_local.gemfile:3802529708": [
-    [20, 25, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [24, 41, 4, "Lint/LtsRuby/UnavailableMethod: IO/SyntaxError#path is unavailable before Ruby 3.2.", 2088095368],
-    [105, 101, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [112, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  "gemfiles/modular/style_local.gemfile:3010284027": [
+    [71, 23, 20, "Style/SafeNavigation: Use safe navigation (`&.`) instead of checking if an object exists before calling the method.", 1851388465]
   ],
   "lib/rack/openid.rb:2221114673": [
-    [33, 31, 4, "Lint/LtsRuby/UnavailableMethod: Set#join is unavailable before Ruby 3.0.", 2088000679],
-    [37, 11, 4, "Lint/LtsRuby/UnavailableMethod: Set#join is unavailable before Ruby 3.0.", 2088000679],
-    [51, 27, 4, "Lint/LtsRuby/UnavailableMethod: Set#join is unavailable before Ruby 3.0.", 2088000679],
-    [108, 32, 35, "Style/SafeNavigation: Use safe navigation (`&.`) instead of checking if an object exists before calling the method.", 3827955158],
-    [108, 41, 5, "Lint/LtsRuby/UnavailableMethod: MatchData#match is unavailable before Ruby 3.1.", 174531222],
-    [289, 72, 4, "Lint/LtsRuby/UnavailableMethod: Set#join is unavailable before Ruby 3.0.", 2088000679]
+    [108, 32, 35, "Style/SafeNavigation: Use safe navigation (`&.`) instead of checking if an object exists before calling the method.", 3827955158]
   ],
-  "rack-openid2.gemspec:3960756748": [
-    [54, 78, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [57, 71, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
-    [94, 13, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
-  ],
-  "spec/rack/openid/version_spec.rb:388211314": [
+  "spec/rack/openid/version_spec.rb:1878173158": [
     [5, 1, 36, "RSpec/SpecFilePathFormat: Spec path should end with `rack/open_id/version*_spec.rb`.", 1078405705]
   ]
 }
