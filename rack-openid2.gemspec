@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Joshua Peek", "Bob Zoller", "Daniel Shelton", "Nat Budin", "nov matake", "Kenny Buckler", "Greg Gershman", "grosser", "Mike Dillon", "Richard Wilson", "Peter H. Boling", "Annibelle Boling"]
   spec.email = ["floss@galtzo.com"]
 
-  spec.summary = "💎 Provides a more HTTPish API around the ruby-openid2 library"
-  spec.description = "💎 Provides a more HTTPish API around the ruby-openid2 library"
+  spec.summary = "🚪 Provides a more HTTPish API around the ruby-openid2 library"
+  spec.description = "🚪 Provides a more HTTPish API around the ruby-openid2 library"
   spec.homepage = "https://github.com/ruby-openid/rack-openid2"
   spec.licenses = ["MIT"]
   spec.required_ruby_version = ">= 2.7.0"

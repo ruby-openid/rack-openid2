@@ -2,7 +2,7 @@
 version: 1
 template_state:
   version: 7.1.38
-  applied_at: '2026-10-21'
+  applied_at: '2026-10-22'
   changelog_replay:
     last_entry_key: kettle-jem-template-20260913-001
     last_entry_date: '2026-09-13'
@@ -762,16 +762,10 @@ files:
   README.md:
     recipe: template_source_application_README_md
     action: write
-    dest_sha256: 280e38010879b0826548da231970e0a47460060fc95d88754628aff1aef0998f
-    input_fingerprint: ce7d776a82f56ce52b13e311447258fd1c830d6c06af4d0d86e40377ecaafb09
+    dest_sha256: e5999e11fce49298ee58594027f3771aa7d90e62417ee9e3948c928ee0ced4fc
+    input_fingerprint: 965b3e1a9ea0d490721f91fe516f42d79b3bf04c6bc70381ab0c9fcf28e7d4a7
     template_sources:
     - README.md.example
-  REEK:
-    recipe: template_source_application_REEK
-    action: write
-    input_fingerprint: 066bb29d175e21e2986f7139f25d45450a068acbbdcb8a650a25d270adf81d6a
-    template_sources:
-    - REEK
   RUBOCOP.md:
     recipe: template_source_application_RUBOCOP_md
     action: write
@@ -1132,8 +1126,8 @@ files:
   rack-openid2.gemspec:
     recipe: template_source_application_rack_openid2_gemspec
     action: write
-    dest_sha256: ded655ad85365bc8f7f4decdfad0ef5f53c2f0c6af0844940df66f67f5335911
-    input_fingerprint: 816622d49f8717f198f644355ea181669dc0887f1fcebd72acb1adf806c865f6
+    dest_sha256: e87c346fa3f789330a2f7e48187af260ac2ea47fca9a2a9bfa5e989fdf80b827
+    input_fingerprint: d20033cea071053e8d37aaed1a784edbeee6ab3038e5c0c96deb717805498f93
     template_sources:
     - gem.gemspec.example
   sig/rack/openid.rbs:
